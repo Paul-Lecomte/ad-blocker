@@ -9,3 +9,8 @@ This project is a custom-built ad blocker for YouTube. It removes intrusive ads 
 - Uses a Chrome extension for easy integration
 - Blocks network requests to known ad servers
 - Lightweight and efficient solution
+
+## Technologies Used
+- JavaScript
+- Chrome Extension API
+- HTML/CSS (for optional UI components)
