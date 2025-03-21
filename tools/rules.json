@@ -2,7 +2,9 @@
   {
     "id": 1,
     "priority": 1,
-    "action": { "type": "block" },
+    "action": {
+      "type": "block"
+    },
     "condition": {
       "urlFilter": "*://www.youtube.com/api/stats/ads*",
       "resourceTypes": ["xmlhttprequest", "script", "sub_frame"]
@@ -11,27 +13,11 @@
   {
     "id": 2,
     "priority": 1,
-    "action": { "type": "block" },
+    "action": {
+      "type": "block"
+    },
     "condition": {
       "urlFilter": "*://googleads.g.doubleclick.net/*",
-      "resourceTypes": ["xmlhttprequest", "script", "sub_frame"]
-    }
-  },
-  {
-    "id": 3,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*://www.youtube.com/pagead/*",
-      "resourceTypes": ["xmlhttprequest", "script", "sub_frame"]
-    }
-  },
-  {
-    "id": 4,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {
-      "urlFilter": "*://www.youtube.com/get_midroll_info*",
       "resourceTypes": ["xmlhttprequest", "script", "sub_frame"]
     }
   }
