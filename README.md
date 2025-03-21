@@ -50,3 +50,6 @@ This project is a custom-built ad blocker for YouTube. It removes intrusive ads 
 - Add UI for user customization
 - Expand ad blocking to other websites
 - Improve detection of new YouTube ad formats
+
+## Contributions
+Feel free to submit pull requests or open issues for any improvements!
