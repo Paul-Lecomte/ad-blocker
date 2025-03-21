@@ -45,3 +45,8 @@ This project is a custom-built ad blocker for YouTube. It removes intrusive ads 
 ├── manifest.json     # Chrome extension configuration
 └── README.md         # Project documentation
 ```
+
+## Future Improvements
+- Add UI for user customization
+- Expand ad blocking to other websites
+- Improve detection of new YouTube ad formats
