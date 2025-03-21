@@ -5,8 +5,7 @@
   "version": "1.0",
   "permissions": [
     "activeTab",
-    "webRequest",
-    "webRequestBlocking",
+    "declarativeNetRequest",
     "storage"
   ],
   "background": {
@@ -22,5 +21,14 @@
       "matches": ["*://www.youtube.com/*"],
       "js": ["./src/content.js"]
     }
-  ]
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "./tools/rules.json"
+      }
+    ]
+  }
 }
