@@ -34,3 +34,14 @@ This project is a custom-built ad blocker for YouTube. It removes intrusive ads 
 3. Enable "Developer mode" (toggle in the top-right corner).
 4. Click "Load unpacked" and select the cloned project folder.
 5. The extension is now installed and should start blocking ads on YouTube.
+
+## File Structure
+```
+├── src/              # Source code for the ad blocker
+│   └── content.js    # Removes ad elements from the DOM
+├── tools/            # Utility scripts and tools
+│   └── background.js # Handles network request blocking
+├── .gitignore        # Specifies files to ignore in version control
+├── manifest.json     # Chrome extension configuration
+└── README.md         # Project documentation
+```
