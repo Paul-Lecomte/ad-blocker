@@ -9,7 +9,7 @@
     "storage"
   ],
   "background": {
-    "service_worker": "./tools/background.js"
+    "scripts": ["background.js"]
   },
   "icons": {
     "16": "assets/icon.png",
@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
-      "js": ["./src/content.js"]
+      "js": ["content.js"]
     }
   ],
   "declarative_net_request": {
@@ -27,8 +27,12 @@
       {
         "id": "ruleset_1",
         "enabled": true,
-        "path": "./tools/rules.json"
+        "path": "rules.json"
       }
     ]
-  }
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://googleads.g.doubleclick.net/*"
+  ]
 }
