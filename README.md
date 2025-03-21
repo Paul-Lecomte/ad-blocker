@@ -53,3 +53,6 @@ This project is a custom-built ad blocker for YouTube. It removes intrusive ads 
 
 ## Contributions
 Feel free to submit pull requests or open issues for any improvements!
+
+## Disclaimer
+This project is for educational purposes only. Bypassing ads may violate YouTube's terms of service, so use at your own risk.
